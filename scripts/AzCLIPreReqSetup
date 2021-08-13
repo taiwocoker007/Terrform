@@ -18,7 +18,7 @@ $envtag = "Environment=TFStorage"                               # This sets the 
 $datetag = "Build-Date=27072024"                                # This sets the Build Date Tag applied to the Resource Group and Storage Account. 
 $spname = "tfdeploy"                                            # This sets the Service Principal Name
 # Below Subscription should be the Management Subscription
-$mansub = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"                # This is the ID of the Subscription to deploy the Resource Group and Storage Account into. 
+$mansub = "08bcd17f-7282-4528-a4e8-a4cac5e5f48c"                # This is the ID of the Subscription to deploy the Resource Group and Storage Account into. 
 
 ########################################
 
