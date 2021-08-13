@@ -11,8 +11,8 @@ az login
 ########################################
 
 $location = "uksouth"                                           # This sets the Resource Group and Storage Account location.
-$rgname = "rgname"                                              # This sets the Resource Group name the Storage Account will be deployed into.
-$strname = "storageaccoutname"                                  # This sets the Storage Account name - note this must be unique!
+$rgname = "Terraform"                                              # This sets the Resource Group name the Storage Account will be deployed into.
+$strname = "taiwoterraform"                                  # This sets the Storage Account name - note this must be unique!
 $containername = "tfstate"                                      # This sets the Container name.
 $envtag = "Environment=TFStorage"                               # This sets the Environment Tag applied to the Resource Group and Storage Account.
 $datetag = "Build-Date=27072024"                                # This sets the Build Date Tag applied to the Resource Group and Storage Account. 
